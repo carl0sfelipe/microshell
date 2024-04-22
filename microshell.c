@@ -2,6 +2,7 @@
 #include <unistd.h>//fork, execve, dup2, pipe, close
 #include <stdlib.h>//malloc, free
 #include <string.h>//strcmp
+#include <sys/wait.h>//waitpid
 
 
 int err(char *str)//print error message
